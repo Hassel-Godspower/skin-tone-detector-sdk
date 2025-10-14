@@ -1,50 +1,76 @@
-# Node.js dependencies
+# =========================================
+# Node / React Native SDK .gitignore
+# =========================================
+
+# Node modules
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-package-lock.json
+
+# Build outputs
+dist/
+build/
+.cache/
+tmp/
+temp/
+*.tmp
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Environment files
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Logs
-logs
-*.log
-*.log.*
-npm-debug.log*
-
-# OS generated files
+# OS-specific files
 .DS_Store
 Thumbs.db
 
-# Vercel build outputs
-.vercel
-
-# Build directories
-dist/
-build/
-.next/
-out/
-coverage/
-
-# Temporary files
-tmp/
-temp/
-.cache/
-
-# IDE/editor specific
+# Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Test coverage
+# Testing / Coverage
 coverage/
+jest-cache/
+*.lcov
 
-# Local testing images/uploads
-uploads/
-__pycache__/
+# React Native specific
+android/
+ios/
+expo/
+.expo/
+.expo-shared/
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Package lock variations
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated API docs
+docs/
+typedoc/
+tsdoc/
+
+# Demo app build
+demo/build/
+demo/.next/
+demo/node_modules/
+
+# Vercel build output
+.vercel/

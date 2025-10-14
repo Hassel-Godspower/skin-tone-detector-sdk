@@ -1,0 +1,12 @@
+{
+  "name": "skin-tone-detector-sdk",
+  "version": "1.0.0",
+  "description": "A lightweight skin tone detection SDK that maps images or RGB values to the closest predefined tone.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": ["skin-tone", "color-matching", "beauty-ai", "cosmetics", "sdk"],
+  "author": "HighValue Solutions",
+  "license": "MIT"
+}

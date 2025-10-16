@@ -28,15 +28,18 @@ It analyzes an uploaded image, detects the average skin tone, and classifies it 
 ## 📁 Project Structure
 
 ```
-skin-tone-detector/
-├── api/
-│   └── detect.js         # API endpoint
-├── public/
-│   └── sample.jpg        # Test image
-├── .gitignore
+skin-tone-detector-sdk/
+│
 ├── package.json
-├── vercel.json
-└── README.md
+├── README.md
+├── .gitignore
+├── index.js
+├── tones.js
+├── example/
+│   └── demo.html
+└── test/
+    └── test.js
+
 ```
 
 ---

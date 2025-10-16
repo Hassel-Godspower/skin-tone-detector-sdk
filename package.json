@@ -1,12 +1,16 @@
 {
   "name": "skin-tone-detector-sdk",
   "version": "1.0.0",
-  "description": "A lightweight skin tone detection SDK that maps images or RGB values to the closest predefined tone.",
+  "description": "AI-powered Skin Tone Detector SDK for mobile and web (React Native, Flutter, or JS).",
   "main": "index.js",
+  "keywords": ["skin tone", "detector", "sdk", "color analysis", "beautytech", "AI", "cosmetics"],
+  "author": "HighValue Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highvaluesolutions/skin-tone-detector-sdk"
+  },
   "scripts": {
     "test": "node test/test.js"
-  },
-  "keywords": ["skin-tone", "color-matching", "beauty-ai", "cosmetics", "sdk"],
-  "author": "HighValue Solutions",
-  "license": "MIT"
+  }
 }

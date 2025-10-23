@@ -196,9 +196,14 @@
         .toUpperCase()}`;
 
       result.innerHTML = `
-        <b>Detected Color:</b> rgb(${r}, ${g}, ${b}) <br>
-        <b>HEX:</b> ${hex} <br>
-        <b>Closest Tone:</b> ${tone.name}
+        <div style="display:flex; align-items:center; gap:8px; margin-top:10px;">
+        <div style="width:20px; height:20px; background:${hex}; border:1px solid #333;"></div>
+        <span><b>HEX:</b> ${hex}</span>
+      </div>
+      <div style="margin-top:4px;">
+        <b>Closest Tone:</b> ${tone.tone} 
+        <span style="display:inline-block;width:20px;height:20px;background:${tone.hex};border:1px solid #333;margin-left:5px;"></span>
+      </div>
       `;
     });
   </script>
